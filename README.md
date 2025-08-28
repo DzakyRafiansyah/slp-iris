@@ -57,34 +57,7 @@ Kolom: `epoch, train_acc, train_mse, val_acc, val_mse, w, b`
 ```
 .
 ├── slp_iris_sigmoid.py
-├── iris_train.csv                # opsional (kalau pakai CSV)
-├── Kelompok PMM-TemplateSLP.xlsx # opsional (kalau pakai XLSX)
+├── iris_train.csv                
 ├── slp_results.csv               # output per-epoch
-├── epoch_1_steps.csv             # (opsional) log per langkah
-├── epoch_2_steps.csv
-├── epoch_3_steps.csv
-├── epoch_4_steps.csv
-├── epoch_5_steps.csv
 └── README.md
-```
-
----
-
-## (Opsional) .gitignore
-
-```gitignore
-# Python
-__pycache__/
-*.pyc
-.venv/
-.env
-
-# Data/outputs
-slp_results.csv
-epoch_*_steps.csv
-
-# OS/IDE
-.DS_Store
-.vscode/
-.idea/
 ```
